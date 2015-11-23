@@ -1,0 +1,12 @@
+---
+ja:
+  activerecord:
+    attributes:
+      event:
+        content: 内容
+        end_time: 終了時間
+        name: 名前
+        place: 場所
+        start_time: 開始時間
+    models:
+      event: イベント
