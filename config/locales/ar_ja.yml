@@ -8,5 +8,8 @@ ja:
         name: 名前
         place: 場所
         start_time: 開始時間
+      ticket:
+        comment: コメント
     models:
       event: イベント
+      ticket: チケット
