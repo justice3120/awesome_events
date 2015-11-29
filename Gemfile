@@ -34,8 +34,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'omniauth'
 gem 'omniauth-twitter'
 
+# for pagination
 gem 'kaminari', '~> 0.15.1'
 gem 'kaminari-bootstrap', '~> 3.0.1'
+
+# for serch models
+# gem 'ransack', github: 'activerecord-hackery/ransack', branch: 'rails-4.2'
+gem 'ransack'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
