@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   end
 
   resources :events do
-    resources :tickets
+    resources :tickets, only: [:new, :create, :destroy]
   end
+  match '*path' => 'application#error404', via: :all
 end
