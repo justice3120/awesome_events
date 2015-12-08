@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "events/show", type: :view do
-  contrxt '未ログインユーザーがアクセスしたとき' do
+  context '未ログインユーザーがアクセスしたとき' do
     before do
       allow(view).to receive(:logged_in?) { false }
       allow(view).to receive(:current_user) { nil }
