@@ -71,3 +71,4 @@ group :test do
   gem 'database_cleaner'
 end
 gem 'better_errors', group: [:development, :test]
+gem 'coveralls', require: false
